@@ -138,8 +138,9 @@ main ul li {
     margin-bottom: 5px;
 }
 div>p {
-    background-color: var(--green);
-    color: white;
+    background-color: white;
+    color: var(--green);
+    border-radius: 20%;
 }
 .pie-chart {
     position: relative;
