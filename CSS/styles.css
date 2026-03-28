@@ -84,6 +84,10 @@ main p {
     font-size: 1.1em;
     font-weight: lighter;
 }
+.about::first-letter {
+    font-size: 30px;
+    font-weight: bold;
+}
 .about {
     text-align: justify;
     overflow: scroll;
@@ -119,6 +123,7 @@ main ul, main ol {
 main ul li, main ol li {
     margin-bottom: 5px;
 }
+
 .pie-chart {
     position: relative;
     height: 20%;
