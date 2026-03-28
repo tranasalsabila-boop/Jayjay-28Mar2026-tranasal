@@ -115,15 +115,18 @@ main p {
     background-color: var(--red);
     color: white;
 }
-main ul, main ol {
+main ul {
     color: var(--green);
     font-size: 1.1em;
     margin-top: 10px;
 }
-main ul li, main ol li {
+main ul li {
     margin-bottom: 5px;
 }
-
+div>p {
+    background-color: var(--green);
+    color: white;
+}
 .pie-chart {
     position: relative;
     height: 20%;
