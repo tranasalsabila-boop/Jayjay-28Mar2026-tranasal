@@ -18,11 +18,25 @@ body {
     margin: 0;
     padding: 20px;
 }
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
 header {
     text-align: center;
     padding: 20px;
     background-color: var(--brown);
     border-radius: 10px;
+    animation-name: fadeInUp;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
 }
 header h1 {
     color: var(--red);
@@ -214,18 +228,15 @@ td:nth-child(2) {
     display: none;
 }
 .footer {
+    background-color: var(--brown);
+    color: var(--green);
+    font-weight: bold;
     text-align: center;
     padding: 10px;
-    background-color: var(--brown);
     border-radius: 10px;
     margin-top: 20px;
 }
-.footer p {
-    color: var(--green);
-    font-size: 1em;
-    font-weight: bold;
-    margin: 0;
-}
+
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
 .col-3 {width: 25%;}
